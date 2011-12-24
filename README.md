@@ -15,6 +15,13 @@ $ npm test
 
 ```javascript
 
+var external_address = require('external-address');
+
+external_address.lookup(function(error, address){
+  console.log(address);
+});
+
+/* EOF */
 ```
 
 ## Run Tests
