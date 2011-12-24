@@ -1,0 +1,28 @@
+{
+  "author":"Edward Hotchkiss <e@ingk.com>",
+  "name":"external-address",
+  "description":"NodeJS Module to Lookup your External (IP) Address",
+  "version":"0.0.1",
+  "repository":{
+    "type":"git",
+    "url":"git://github.com/edwardhotchkiss/always.git"
+  },
+  "keywords":["external","ip","network","address"],
+  "engines":{
+    "node":">= 0.4.11 < 0.8.0"
+  },
+  "dependencies":{
+    "request":""
+  },
+  "devDependencies":{
+    "vows":"0.6.0"
+  },
+  "main": "./lib/external-address",
+  "licenses":[{
+    "type":"MIT",
+    "url":"http://github.com/edwardhotchkiss/external-address/LICENSE"
+  }],
+  "scripts":{
+    "test":"vows test/*.test.js --spec"
+  }
+}
