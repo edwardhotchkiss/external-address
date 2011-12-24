@@ -1,5 +1,5 @@
 
-# Always - [![Build Status](https://secure.travis-ci.org/edwardhotchkiss/external-address.png)](http://travis-ci.org/edwardhotchkiss/external-address)
+# External-Address - [![Build Status](https://secure.travis-ci.org/edwardhotchkiss/external-address.png)](http://travis-ci.org/edwardhotchkiss/external-address)
 
 > NodeJS Module to Lookup your External (IP) Address
 
